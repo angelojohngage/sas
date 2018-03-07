@@ -1,0 +1,75 @@
+html {
+  font-size: 18px;
+  background-color: black;
+}
+
+body {
+  font-family: Helvetica;
+  color: white;
+  width: 960px;
+}
+
+header {
+  background-color: black;
+  display: flex;
+}
+
+.logo {
+  margin-left: 0.5rem;
+  margin-top: 0.33rem;
+  margin-bottom: 0.33rem;
+}
+
+.logo img {
+  height: 1.5rem;
+}
+
+header span {
+  margin-left: 1rem;
+  margin-top: 0.66rem;
+  margin-bottom: 0.66rem;
+}
+
+.container {
+  display: flex
+}
+
+#banner {
+  background-size: cover;
+  background-image: url(images/moto.jpeg);
+  height: 25rem;
+  width: 100%;
+}
+
+.arrivals {
+  background-color: black;
+  width: 20rem;
+  margin-top: 9rem;
+  height: 50%;
+  margin-left: 4rem;
+}
+
+.arrivals h3 {
+  font-weight: bold;
+  margin-top: 2rem;
+  margin-left: 3rem;
+}
+
+.arrivals h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 0.25rem;
+  margin-left: 3rem;
+}
+
+.nav {
+  display: inline-flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: firebrick;
+}
+
+.nav span {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
