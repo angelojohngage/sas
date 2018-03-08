@@ -40,8 +40,6 @@ header {
 }
 
 #banner {
-  background-repeat: no-repeat;
-  background-position: center;
   background-size: cover;
   background-image: url(images/moto.jpeg);
   height: 25rem;
@@ -53,21 +51,20 @@ header {
   width: 20rem;
   margin-top: 9rem;
   height: 50%;
-
+  padding: 2rem 3rem;
 }
 
-.arrivals h4 {
+h4 {
   font-weight: bold;
-  margin-top: 2rem;
-  margin-left: 3rem;
+
 }
 
-.arrivals h1 {
+h1 {
   font-size: 2rem;
   font-weight: bold;
   margin-top: 0.25rem;
-  margin-left: 3rem;
-  margin-bottom: 2rem;
+
+
 }
 
 nav {
@@ -119,7 +116,8 @@ background-color: firebrick;
 }
 
 .product span {
-  text-align: center;
+  display: inline-flex;
+  align-items: center;
   height: 2rem;
   padding: 0.5rem;
   background-color: black;
@@ -176,4 +174,5 @@ footer {
   margin: 0 auto;
   display: inline-flex;
   align-items: center;
+
 }
