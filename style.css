@@ -210,8 +210,15 @@ footer {
     font-size: 0.77rem;
   }
 
+  .product-line {
+    flex-direction: column;
+    align-items: center;
+
+  }
+
   .product {
     width: 90%;
+
   }
 
   #watch {
